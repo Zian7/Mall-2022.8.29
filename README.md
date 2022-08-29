@@ -1,9 +1,15 @@
 笔记：
+
 第一章 整合SpringBoot和MyBatis搭建基本骨架
+
 ·日志工具logger的使用方法：
+
     private static final Logger LOGGER = LoggerFactory.getLogger(PmsBrandController.class);
+    
 ·实用工具类库common-util使用：
+
     ·用处：统一数据返回格式
+    
     ·common-util 这个工具库为我们提供了一个现成的通用返回数据封装类 CommonResult，如：
     
     
