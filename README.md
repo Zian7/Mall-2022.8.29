@@ -5,12 +5,13 @@
 ·实用工具类库common-util使用：
     ·用处：统一数据返回格式
     ·common-util 这个工具库为我们提供了一个现成的通用返回数据封装类 CommonResult，如：
+    
+    
         @RequestMapping(value = "listAll",method = RequestMethod.GET)
         @ResponseBody
         public CommonResult<List<PmsBrand>> getBrandList(){
               return CommonResult.success(demoService.listAllBrand());
                }
-               
         又如：
         @RestController
         public class HelloController {
